@@ -1,4 +1,4 @@
-import aboutImage from "../assets/wali2.jpg";
+import aboutImage from "../assets/wali2.JPG";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
