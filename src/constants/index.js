@@ -3,6 +3,7 @@ import hospital from "../assets/projects/hospital.jpg";
 import website from "../assets/projects/website.jpg";
 import minesweeper from "../assets/projects/minesweeper.png";
 import pet from "../assets/projects/home.png";
+import ufc from "../assets/projects/UFC.png";
 
 export const HERO_CONTENT = `I am a full stack developer and software engineer passionate about building scalable and efficient applications. I have hands-on experience with a wide range of technologies, including Java, Python, C++, SQL, JavaScript, HTML/CSS, PHP, React, React Native, Node.js, Flask, FastAPI, and JavaFX. I enjoy solving complex problems, creating innovative solutions, and delivering exceptional user experiences. My goal is to leverage my skills to develop impactful software that drives real-world results.`;
 
@@ -26,6 +27,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "UFC Fight Predictor",
+    image: ufc,
+    description:
+      "A fully end-to-end UFC fight prediction system that uses historical fight data, fighter statistics, and recent form to calculate the probability of a fighter winning. The system performs extensive data cleaning, feature engineering, and machine learning modeling, and includes an interactive command-line interface with fuzzy name matching and autocomplete. Evaluation metrics show strong predictive performance, with top features including significant strikes, strike differentials, and recent form statistics. The project demonstrates a complete ML pipeline from raw data to user-facing predictions.",
+    technologies: ["Python", "Pandas", "Numpy", "Scikit-Learn", "XGBoost"],
+    github: "https://github.com/abdulwali309/UFC-FightPredictor",
+
+  },
   {
     title: "Banking Application",
     image: bank,
