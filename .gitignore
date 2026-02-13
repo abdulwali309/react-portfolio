@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-ssr/
+
+*.log
+
+.env
+.env.*
+
+.DS_Store
+
+# Local-only resume PDF (not referenced by the app)
+src/assets/projects/AbdulWali_s_Resume_Dev.pdf

@@ -31,8 +31,8 @@ export const PROJECTS = [
     title: "UFC Fight Predictor",
     image: ufc,
     description:
-      "A fully end-to-end UFC fight prediction system that uses historical fight data, fighter statistics, and recent form to calculate the probability of a fighter winning. The system performs extensive data cleaning, feature engineering, and machine learning modeling, and includes an interactive command-line interface with fuzzy name matching and autocomplete. Evaluation metrics show strong predictive performance, with top features including significant strikes, strike differentials, and recent form statistics. The project demonstrates a complete ML pipeline from raw data to user-facing predictions.",
-    technologies: ["Python", "Pandas", "Numpy", "Scikit-Learn", "XGBoost"],
+      "A fully end-to-end UFC fight prediction platform that runs entirely online, combining automated data ingestion, machine learning modeling, and a live web application. The system continuously scrapes UFCStats event, fight, and fighter data, stores it in a normalized cloud Postgres database, and generates pre-fight predictions using a custom ML model trained on historical performance, fighter attributes, and recent form trends. The pipeline is fully automated, from scraping and data validation to feature generation, model retraining, and prediction storage, with weekly retraining workflows and versioned model artifacts. A Dockerized FastAPI backend serves prediction APIs, while a Next.js frontend displays upcoming fight predictions, completed fight results with correctness tracking, and interactive fighter-vs-fighter matchup predictions. The project emphasizes production-style data reliability (schema validation, parse safeguards, contract tables), ML pipeline design without data leakage, and cloud deployment with automated workflows.",
+    technologies: ["Python", "FastAPI", "XGBoost", "Pandas", "Supabase Postgres", "Docker", "Google Cloud Run", "Next.js", "GitHub Actions"],
     github: "https://github.com/abdulwali309/UFC-FightPredictor",
     live: "https://ufc-fight-predictor-nine.vercel.app/",
 
