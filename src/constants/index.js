@@ -34,6 +34,7 @@ export const PROJECTS = [
       "A fully end-to-end UFC fight prediction system that uses historical fight data, fighter statistics, and recent form to calculate the probability of a fighter winning. The system performs extensive data cleaning, feature engineering, and machine learning modeling, and includes an interactive command-line interface with fuzzy name matching and autocomplete. Evaluation metrics show strong predictive performance, with top features including significant strikes, strike differentials, and recent form statistics. The project demonstrates a complete ML pipeline from raw data to user-facing predictions.",
     technologies: ["Python", "Pandas", "Numpy", "Scikit-Learn", "XGBoost"],
     github: "https://github.com/abdulwali309/UFC-FightPredictor",
+    live: "https://ufc-fight-predictor-nine.vercel.app/",
 
   },
   {

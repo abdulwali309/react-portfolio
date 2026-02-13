@@ -44,6 +44,16 @@ const Projects = () => {
                 >
                   {project.title}
                 </a>
+                {project.live ? (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-3 text-sm font-medium text-neutral-300 hover:underline"
+                  >
+                    Live
+                  </a>
+                ) : null}
               </h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, techIndex) => (
